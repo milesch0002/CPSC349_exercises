@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+body {
+    background-color: silver;
+}
+
+hr {
+    border-top: 1px solid gold;
+}
