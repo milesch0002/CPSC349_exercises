@@ -7,25 +7,27 @@
 
     </head>
     <body>
-        <nav>
-            <span>Welcome!</span>
-            <a href="about.html">About Me</a>
-            <a href="table.html">Schedule</a>
+        <nav class="nav">
+            <ul>
+                <li><a class="active" href="#">Welcome</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="table.html">Schedule</a></li>
+            </ul> 
         </nav>
-        <hr>
-        <h1>Hello, My Name is <em>Miles Chao</em></h1>
-        <hr>
+        <header>
+            <h1>Hello, My Name is <em>Miles Chao</em></h1>
+        </header>
         <h3>A little About Me</h3>
         <p>I am currently a 4th year transfer student at Cal State Fullerton studying computer science.</p>
         <!-- link text / hypertext-->
         <a href="about.html">More About Miles Chao</a>
         <br>
         <iframe width="300" height="200" src="https://www.youtube.com/embed/ih2xubMaZWI" title="OMFG - Hello" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h3>Some things about me</h3>
         <section>
-            <h3>Some things about me</h3>
-
-            <h4>Favorite Foods</h4>
-            <ul>
+            <article>
+                <h4>Favorite Foods</h4>
+                <ul>
                 <li>Pizza</li>
                 <li>Ramen</li>
                 <li>Gatorade</li>
@@ -51,6 +53,7 @@
                 <li>Python</li>
                 <li>HTML</li>
             </ol>
+            </article>
         </section>
 
         <h4>Favorite Games</h4>
@@ -63,7 +66,9 @@
             </ol>
         </details>
 
-        <p><strong>Visit <a href="about.html">About Me</a> to learn more</strong></p>
-
+        <footer>
+            <p>Visit <a href="about.html">About Me</a> to learn more</p>
+        </footer>
+        
     </body>
 </html>
